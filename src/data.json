@@ -1,0 +1,76 @@
+{
+	"type": "container",
+	"direction": "vertical",
+	"children": [
+		{
+			"type": "container",
+			"backgroundcolor": "red",
+			"direction": "horizontal",
+			"children": [
+				{
+					"type": "button",
+					"text": "button1"
+				},
+				{
+					"type": "button",
+					"text": "button2"
+				}
+			]
+		},
+		{
+			"type": "container",
+			"backgroundcolor": "green",
+			"direction": "horizontal",
+			"children": [
+				{
+					"type": "checkbox",
+					"value": true
+				},
+				{
+					"type": "checkbox",
+					"value": false
+				}
+			]
+		},
+		{
+			"type": "container",
+			"backgroundcolor": "blue",
+			"direction": "horizontal",
+			"children": [
+				{
+					"type": "container",
+					"direction": "vertical",
+					"children": [
+						{
+							"type": "image",
+							"source": "https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/media/advanced-analytics-on-big-data.png",
+							"width": 300
+						}
+					]
+				},
+				{
+					"type": "container",
+					"direction": "vertical",
+					"children": [
+						{
+							"type": "image",
+							"source": "https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/media/advanced-analytics-on-big-data.png",
+							"width": 100,
+							"height": 100
+						},
+						{
+							"type": "image",
+							"source": "https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/media/advanced-analytics-on-big-data.png",
+							"width": 100
+						},
+						{
+							"type": "image",
+							"source": "https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/media/advanced-analytics-on-big-data.png",
+							"height": 100
+						}
+					]
+				}
+			]
+		}
+	]
+}
